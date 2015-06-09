@@ -6,35 +6,13 @@ Developer @GA in NYC
 */
 
 @import url('reset.css');
-@import url('reset.css');
+@import url('base.css');
+@import url('layout.css')
 /******************************************
 
 
 
 /******************************************
-/* LAYOUT
-/*******************************************/
-
-
-header {
-
-  padding: 40px;
-  background: #00FF00;
-  border-bottom: 1px solid #DCDCDC;
-}
-
-
-section{
-
-  padding: 40px;
-  background: #63DCEF;
-  border-bottom: 1px solid #DCDCDC;
-}
-
-footer {
-  padding: 40px;
-  background: #EF63DC;
-}
 
 
 /******************************************
