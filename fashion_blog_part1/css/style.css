@@ -26,17 +26,44 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: 'Lato', sans-serif;
+   }
+.body{
+  padding-left: 40px;
+}
+.preview{
+  background: url(../fashion_blog_part2.png);
+  background-repeat: no-repreat;
+}
+
+
+header{
+  position: relative;
+}
+
+.heading {
+  position: relative;
 
 }
 
 h1 b{
+  position: relative;
+  float: left;
   font-size: 40px;
   color: red;
+  font-weight: 300;
+  clear: both;
 }
 
-h2 {
+header h2 {
+  position:absolute;
   font-size: 20px;
+  color: gray;
+  left: 225px;
+  top: 22px;
+
 }
+
+
 
 h3 {
   color: rgb(204, 204, 204);
