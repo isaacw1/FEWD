@@ -1,0 +1,31 @@
+h1, h2, h3, h4, h5, h6, p, a, li, blockquote{
+  padding-top: 20px;
+  font-family: 'Verdana', sans-serif;
+}
+
+body {
+  color: #000;
+  background: rgb(133, 224, 255);
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 50px;
+}
+
+.hobbies {
+  width: 45%;
+  float: left;
+  display: inline-block;
+  padding-left: 120px;
+
+}
+
+.family{
+  width: 45%;
+  display: inline-block;
+  float: left;
+  clear: right;
+
+
+
+
+}

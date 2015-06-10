@@ -22,7 +22,9 @@ section{
 section h4{
   position: absolute;
   top: 2.0em;
-  right: 80px;
+  right: 40px;
+
+
 }
 .section-content{
   float: left;
