@@ -36,8 +36,16 @@ header{
   margin-top: 10px;
   border: 10px solid black;
   border-radius: 20px;
+  background: white;
+
 }
 
 footer{
   text-align: center;
+  border: 10px solid black;
+  width: 300px;
+  background: white;
+  opacity: .5;
+  padding: 10px;
+  margin: auto;
 }
