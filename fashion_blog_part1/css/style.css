@@ -45,13 +45,14 @@ header{
 
 }
 
-h1 b{
+h1 a{
   position: relative;
   float: left;
   font-size: 40px;
   color: red;
   font-weight: 300;
   clear: both;
+  text-decoration: none;
 }
 
 header h2 {
@@ -70,7 +71,7 @@ h3 {
   font-size: 40px;
 }
 
-h4 b{
+h4 a{
   color:red;
 }
 
@@ -78,14 +79,28 @@ img{
 
 }
 
-nav  a{
+
+.top a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  background-color: black;
+  padding: 1px;
+  width: 15%;
+  height: 65px;
+  font-size: 25px;
+  vertical-align: middle;
+  line-height: 65px;
+  text-decoration: none;
+}
+
+.bottom{
   color: rgb(234, 234, 234);
+  display:inline-block;
 
 
 }
-nav b{
-  color: red;
-}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
