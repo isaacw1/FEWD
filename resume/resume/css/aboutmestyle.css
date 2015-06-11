@@ -1,6 +1,27 @@
-h1, h2, h3, h4, h5, h6, p, a, li, blockquote{
+h2, h3, h4, h5, h6, p, a, li, blockquote{
   padding-top: 20px;
   font-family: 'Verdana', sans-serif;
+}
+
+img {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.comp{
+  border-radius: 20px;
+}
+
+header{
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    margin-top: 10px;
+    border: 10px solid black;
+    border-radius: 20px;
 }
 
 body {

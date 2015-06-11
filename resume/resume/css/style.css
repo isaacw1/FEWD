@@ -22,11 +22,20 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 80px;
+    margin-top: 80px;
+}
+
+.iw{
+  border-radius: 20px;
 }
 
 header{
+  margin: auto;
   text-align: center;
+  width: 800px;
+  margin-top: 10px;
+  border: 10px solid black;
+  border-radius: 20px;
 }
 
 footer{
