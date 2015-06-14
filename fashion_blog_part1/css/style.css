@@ -31,6 +31,7 @@ body {
 .body{
   padding-left: 60px;
   padding-top: 57px;
+  padding-right: 60px;
 }
 
 preview{
@@ -144,18 +145,20 @@ h4 a{
 article img{
   float:left;
   clear:both;
-  max-: 100%;
+  max: 100%;
   padding-bottom: 10px;
 }
 
-
+.top{
+  width:100%;
+}
 .top a{
   display: block;
   color: white;
   text-align: center;
   background-color: black;
   margin: 1px;
-  width: 15.67%;
+  width: 16.5%;
   height: 65px;
   font-size: 25px;
   vertical-align: middle;
@@ -194,6 +197,7 @@ article img{
 }
 
 .sidebar{
+  padding-top: 20px;
   clear: left;
   float: right;
   width: 22%;
