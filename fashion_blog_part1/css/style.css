@@ -26,18 +26,26 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: 'Lato', sans-serif;
+
    }
 .body{
-  padding-left: 40px;
+  padding-left: 60px;
+  padding-top: 57px;
 }
-.preview{
+
+preview{
   background: url(../fashion_blog_part2.png);
-  background-repeat: no-repreat;
+  background-repeat: no-repeat;
+  :1194px;
+  height: 1862px;
+
+
 }
 
 
 header{
   position: relative;
+
 }
 
 .heading {
@@ -45,58 +53,150 @@ header{
 
 }
 
-h1 a{
+header h1 a{
   position: relative;
-  float: left;
-  font-size: 40px;
-  color: red;
+  font-size: 55px;
+  color: #DE3B30;
+  clear: both;
+  font-weight: ;
+  text-decoration: none;
   font-weight: 300;
+}
+header h1, header h2 {
+  : 50%;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  display: inline;
+
+}
+header h2 {
+  position: relative;
+  font-size: 30px;
+  color: gray;
+  font-weight: 300;
+  padding-left: 18px;
+}
+
+.article {
+  float:left;
+  position: relative;
+  padding-top: 20px;
+  padding-right: 50px;
+  border-bottom: 1px solid gray;
+  clear: left;
+  width: 68%;
+}
+
+article h3 {
+  position: relative;
+  color: rgb(204, 204, 204);
+  font-size: 35px;
+  float:left;
+  font-weight: 300;
+  margin-bottom:  5.8px;
+
+}
+
+article h2 a{
+  float: left;
   clear: both;
   text-decoration: none;
+  color:black;
+  font-size: 35px;
+  font-weight: 330;
 }
 
-header h2 {
-  position:absolute;
-  font-size: 20px;
-  color: gray;
-  left: 225px;
-  top: 22px;
+article p{
+  padding-top: 5;
+  clear: both;
+  float:left;
+  font-size:18px ;
+  color: gray;;
+}
 
+.firstcharacter {
+
+
+  float: left;
+  clear: both;
+  color: black;
+  font-size: 105px;
+  font-weight: 300;
+    : 0.7em;
+    line-height: 80%;
 }
 
 
+article h4{
+  position: relative;
 
-h3 {
-  color: rgb(204, 204, 204);
-  font-size: 40px;
+
 }
-
 h4 a{
   color:red;
+  font-weight: bold;
+  text-decoration: none;
+  float: right;
+  font-size:18px;
 }
 
-img{
-
+article img{
+  float:left;
+  clear:both;
+  max-: 100%;
+  padding-bottom: 10px;
 }
 
 
 .top a{
-  display: inline-block;
+  display: block;
   color: white;
   text-align: center;
   background-color: black;
-  padding: 1px;
-  width: 15%;
+  margin: 1px;
+  width: 15.67%;
   height: 65px;
   font-size: 25px;
   vertical-align: middle;
   line-height: 65px;
   text-decoration: none;
+  float: left;
+
 }
 
 .bottom{
-  color: rgb(234, 234, 234);
+  float: left;
+}
+.bottom a{
   display:inline-block;
+  color: #DE3B30;
+  margin: 1px;
+
+  float: left;
+
+  color: #DE3B30;
+  text-align: center;
+  margin: 1px;
+  border-left: 1px solid gray;
+  text-decoration: none;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 0px;
+  padding-bottom:2px;
+  font-size: 20px;
+  line-height: 15px;
+  font-weight: 300;}
+
+
+.bottom a:first-child{
+  border-left:none;
+}
+
+.sidebar{
+  clear: left;
+  float: right;
+  width: 22%;
 
 
 }
@@ -107,7 +207,7 @@ img{
 
 /* Center the container */
 body {
-	width: 100%;
+	: 100%;
   height:100%;
 	margin: 0;
   padding: 0;
