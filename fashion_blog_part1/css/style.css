@@ -24,7 +24,7 @@ Developer @GA in NYC
 body {
      color: black;
      font-size: 12px;
-     line-height: 1.4;
+     line-height: 1.5;
      font-family: 'Lato', sans-serif;
 
    }
@@ -32,20 +32,24 @@ body {
   padding-left: 60px;
   padding-top: 57px;
   padding-right: 60px;
+  width:1194px;
+  height:1862px;
 }
 
-preview{
+.preview{
   background: url(../fashion_blog_part2.png);
   background-repeat: no-repeat;
-  :1194px;
-  height: 1862px;
+  width:1194px;
+  height:1862px;
 
 
 }
+
 
 
 header{
   position: relative;
+
 
 }
 
@@ -86,7 +90,7 @@ header h2 {
   padding-right: 50px;
   border-bottom: 1px solid gray;
   clear: left;
-  width: 68%;
+  width: 720px;
 }
 
 article h3 {
@@ -124,7 +128,7 @@ article p{
   color: black;
   font-size: 105px;
   font-weight: 300;
-    : 0.7em;
+    width: 0.7em;
     line-height: 80%;
 }
 
@@ -142,15 +146,16 @@ h4 a{
   font-size:18px;
 }
 
-article img{
+.article img{
+  max-width: 720px;
   float:left;
   clear:both;
-  max: 100%;
+
   padding-bottom: 10px;
 }
 
 .top{
-  width:100%;
+  width:1080px;
 }
 .top a{
   display: block;
@@ -158,7 +163,7 @@ article img{
   text-align: center;
   background-color: black;
   margin: 1px;
-  width: 16.5%;
+  width: 177.5px;
   height: 65px;
   font-size: 25px;
   vertical-align: middle;
@@ -197,21 +202,47 @@ article img{
 }
 
 .sidebar{
-  padding-top: 20px;
+
+  margin-top: 128px;
   clear: left;
   float: right;
-  width: 22%;
+  width: 305px;
+  font-size: 18px;
+  color: #969696;
+}
+.sidebar h4{
+  margin: 0;
+  margin-bottom: 27px;
+}
 
+.sidebar p{
+  line-height: 1.5;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #EAEAEA;
+  border-width: auto;
 
 }
 
+
+.more{
+  color:red;
+  font-size: 50px;
+}
+
+.sidebar img{
+  padding-top: 60px;
+  padding-left: 0px;
+  border-bottom: 1px solid #EAEAEA;
+  border-width: auto;
+
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
 
 /* Center the container */
 body {
-	: 100%;
+	width: 100%;
   height:100%;
 	margin: 0;
   padding: 0;
