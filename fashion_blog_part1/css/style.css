@@ -36,11 +36,11 @@ body {
   height:1862px;
 }
 
-.preview{
+/*.preview{
   background: url(../fashion_blog_part2.png);
   background-repeat: no-repeat;
   width:1194px;
-  height:1862px;
+  height:1862px;*/
 
 
 }
@@ -86,9 +86,9 @@ header h2 {
 .article {
   float:left;
   position: relative;
-  padding-top: 20px;
+  padding-top: 0px;
   padding-right: 50px;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #DDDDDD;
   clear: left;
   width: 720px;
 }
@@ -114,10 +114,14 @@ article h2 a{
 
 article p{
   padding-top: 5;
+  padding-bottom:30px;
   clear: both;
   float:left;
   font-size:18px ;
-  color: gray;;
+  color: black;
+  margin-bottom: 0;
+  width:720px;
+
 }
 
 .firstcharacter {
@@ -125,7 +129,7 @@ article p{
 
   float: left;
   clear: both;
-  color: black;
+  color: #DDDDDD;
   font-size: 105px;
   font-weight: 300;
     width: 0.7em;
@@ -135,11 +139,12 @@ article p{
 
 article h4{
   position: relative;
+  float: right;
 
 
 }
 h4 a{
-  color:red;
+  color:#DE3B30;
   font-weight: bold;
   text-decoration: none;
   float: right;
@@ -175,6 +180,8 @@ h4 a{
 
 .bottom{
   float: left;
+  padding-top: 60px;
+  padding-left:5px;
 }
 .bottom a{
   display:inline-block;
@@ -213,29 +220,65 @@ h4 a{
 .sidebar h4{
   margin: 0;
   margin-bottom: 27px;
+  color: #888888;
+  font-weight: 700;
 }
 
 .sidebar p{
   line-height: 1.5;
   padding-bottom: 5px;
-  border-bottom: 1px solid #EAEAEA;
-  border-width: auto;
+
 
 }
 
 
 .more{
-  color:red;
+  color:#DE3B30;
   font-size: 50px;
+  padding-bottom: 20px;
+  height: auto;
+
 }
 
 .sidebar img{
-  padding-top: 60px;
+  margin-top: 30px;
+  padding-top: 25px;
+  padding-bottom:25px;
   padding-left: 0px;
   border-bottom: 1px solid #EAEAEA;
+  border-top: 1px solid #EAEAEA;
   border-width: auto;
+  margin-left: auto;
+  margin-right: auto;
 
 }
+
+.popular{
+  padding-top: 18px;
+  padding-left: -4px;
+
+}
+.popular h4{
+  color: #888888;
+  font-weight: 700;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.popular li a{
+  color:#DE3B30;
+  text-decoration: none;
+  font-weight: 300;
+
+}
+footer{
+  float: left;
+  position: relative;
+  padding-top: 10px;
+  clear: both;
+  color: #BBBBBB;
+  font-size: 18px;
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
