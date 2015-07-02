@@ -141,3 +141,31 @@ DIVS
   CLASS 10 END OF JUNE
 
     FEWD-HTML FORMS AND JS EVENTS
+
+
+7/1/15
+
+  OBJECTS
+    - var obj = {} //creates an empty object
+  FOR
+  - for(vari=0;i<ul.children.length;i++){
+    console.log(ul[i]);
+}
+
+  //loops from 0 to length of children array
+    -DOM children are not true arrays, do not have methods of arrats
+    -DOM Nodes us the prototype of ELements
+    -acces the Node in the loop using Arrat like syntax
+
+  FOREACH
+
+  arr.forEach(fucntion(tag){
+      console.log(tag);
+});
+
+    - array.prototype.forEach
+    -forEach is a method available on Arrays
+    -loops through all items in Array
+    -the first argument of callback function is each item.
+
+  

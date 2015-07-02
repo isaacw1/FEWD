@@ -4,6 +4,7 @@ Element.prototype.Gallery = function(){
   var ul = gallery.children[0];
   var photos = new Object();
   var container = document.getElementById('container');
+  this.allTheTags = [];
   // Define global variables
 
   this.singlePhoto = function(ev) {
@@ -15,7 +16,7 @@ Element.prototype.Gallery = function(){
 
     section.innerHTML = ev.target.innerHTML;
     section.style.backgroundImage = ev.target.style.backgroundImage;
-  
+
 
     // section.style.backgroundRepeat = 'no-repeat';
     // section.style.backgroundSize = 'contain';
@@ -34,6 +35,32 @@ Element.prototype.Gallery = function(){
     section.appendChild(closeButton);
     container.appendChild(section);
 
+
+  };
+
+  this.filterPhotos = function(query) {
+    for(var i=0; i<ul.children.length; i++){
+      var tags = ul.children[i].dataset.tags; //grab the tags!
+      var arr = tags.split(',');
+      var matched = false;
+
+      arr.forEach(function(tag){
+          if(tag === query){ //check if a tag is equal to the query
+            ul.children[i].style.display = 'block'; //if there is a match, hide the li
+            matched= true;
+          }
+      });
+
+      if(matched === false){
+        ul.children[i].style.display = 'none';
+      }
+
+
+    if(query === 'all'){
+      ul.children[i].style.display = 'block';
+    }
+    //if there is a match show the li    //if there isn't a match, hide the li
+    }
 
   };
 
@@ -56,11 +83,19 @@ Element.prototype.Gallery = function(){
                 photo.rating+'</div></div>'+
                 '</div>';
 
-          li.dataset.description = photo.description;
+                var tags = [];
 
-          li.addEventListener('click',gallery.singlePhoto);
+                photo.tags.forEach(function(tag){
+                  tags.push(tag.toLowerCase());
+                });
+                //allTheTags.push(tags);
+                li.dataset.tags = tags;
+                li.dataset.description = photo.description;
 
-          ul.appendChild(li);
+
+                li.addEventListener('click',gallery.singlePhoto);
+
+                ul.appendChild(li);
 
 
       });
