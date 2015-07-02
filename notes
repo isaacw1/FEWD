@@ -168,4 +168,30 @@ DIVS
     -loops through all items in Array
     -the first argument of callback function is each item.
 
-  
+MVC
+
+  MODEL
+    -stores the data to be displayed in the view
+    -often JSON, XML, Arrays and Objects are used to store this data
+
+  VIEW
+    -displays the content of the data in the table Window
+
+  CONTROLLER
+    -reads the data from the model
+    -delivers data from the model to the view
+    -determinesthe logical operations of a web app
+
+  MV*
+  - a framework that further separates the concerns
+  -multiple methods that handle the logic
+  -usually employs some concept of a controller
+  -to name a few:
+    -angular
+    -ember
+    -react
+    -meteor
+    -backbone
+    -knockout
+    -YUI
+    -polymer
