@@ -195,3 +195,32 @@ MVC
     -knockout
     -YUI
     -polymer
+
+
+  7/6/15 MVC
+
+    JS REVIEW
+    -number (int) 2
+    -number (float) 3.12159
+    -'this is a string' strings can be concatenated
+    -always have to declare variables
+    -when you push something into in array it gets inserted into the first item in an array
+
+
+7/8/15 More CSS
+
+
+  Non Performant CSS
+
+-positioning elements outside of their container leads to performance issues
+-transitioning a color takes a lot of browser work
+    -instead, stack elements w/ different colors & fade them instead
+-box shadow and border radius together are a bad idea
+
+
+  Performant CSS
+
+-stay in the box
+-transform color w/ canvas or opacity shifts
+-avoid border-radius w/ box-shadow
+-offload complex
