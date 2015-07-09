@@ -22,7 +22,7 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
+     color: #121212;
      font-size: 12px;
      line-height: 1.4;
      font-family: 'Open Sans', Helvetica, Arial, sans-serif;
@@ -39,68 +39,7 @@ body {
   height:100%;
 	margin: 0;
   padding: 0;
-  background-color:#059472;
-
 }
-
-.therm{
-  width:800px;
-  height:400px;
-  position:absolute;
-  top:50%;
-  left:50%;
-  margin-left:-400px;
-  margin-top:-200px;
-
-}
-
-.therm .current{
-  float:left;
-  width:400px;
-  height:400px;
-  text-align:center;
-}
-
-.therm h1 {
-  font-size: 32px;
-  text-transform:uppercase;
-}
-
-.therm .temp{
-  font-size:240px;
-  position:relative;
-  top:-40px;
-}
-
-.therm .temp span{
-  font-size: 120px;
-  position:relative;
-  top:-90px;
-}
-
-.therm .controls{
-  float:right;
-  width:400px;
-  height:400px;
-}
-
-.therm .control{
-  width:400px;
-  height:200px;
-}
-
-.therm .button{
-  width:80px;
-  height:80px;
-  margin:auto;
-  cursor:pointer;
-}
-
-.therm .button img{
-  width:100%;
-  height:100%;
-}
-
 
 /******************************************
 /* ADDITIONAL STYLES

@@ -1,0 +1,32 @@
+{
+  "users":[{
+        "name":"Isaac",
+        "age":"20",
+        "occupation":"Software Developer"
+    },
+    {
+        "name" : "Larry",
+        "age" : "13",
+        "occupation" : "Person"
+    },
+    {
+        "name" : "Lucy",
+        "age" : "72",
+        "occupation" : "Human"
+    },
+    {
+        "name" : "Lemur",
+        "age" : "43",
+        "occupation" : "Adult"
+    },
+    {
+        "name" : "Balooga",
+        "age" : "12",
+        "occupation" : "Failure"
+    },
+    {
+        "name" : "Hullabaloo",
+        "age" : "41",
+        "occupation" : "Funny-Man"
+    }]
+  }
