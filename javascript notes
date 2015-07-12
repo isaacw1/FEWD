@@ -1,0 +1,39 @@
+7/11/15 JAVASCRIPT WORSKHOP
+
+-key functions:
+  user interaction
+  text manipulation
+  decision making, arithmetic
+
+Programming concepts
+  -Data Types
+    string - "hello"
+    number - 58
+    boolean - true/false
+
+  -Objects
+    allow us to store key-value pairs
+
+  -Loops
+
+    while loops:
+
+    while(condiiton){
+      while loop to be executed
+    }
+
+    for loops
+
+    for(asssignment; end condition; increment)
+
+JQUERY
+  -DOM Access
+  -DOM traversal
+  -DOM and CSS Manipulation
+  -callbacks
+
+AJAX
+  -getting and exchanging data with a server without having to reload the page every time
+    faster, especially with classic browsers
+
+    -google maps, fb, gmail, etc

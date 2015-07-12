@@ -1,11 +1,11 @@
-.card effect__click{
+.card {
   width: 80%;
   margin: auto;
   position: relative;
   float: left;
 }
 
-.card effect__click li {
+.card li {
   padding: 5px;
   float: left;
   width: 16.66%;
@@ -13,7 +13,7 @@
 
 }
 
-.card effect__click img {
+.card img {
   padding:5px;
   width: 80%;
 }
@@ -30,7 +30,7 @@
   position: relative;
   float: left;
   padding-bottom: 25%;
-  width: 25%;
+  width: 16.66%;
   text-align: center;
 }
 
