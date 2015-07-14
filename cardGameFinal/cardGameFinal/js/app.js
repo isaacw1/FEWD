@@ -26,7 +26,7 @@ var CardMatchGame = function(elem) {
    // console.log(shuffle);
 };
 		this.checkMatch = function(flippedCards){
-          var flippedCards = document.getElementsByClassName('flipped');
+          //var flippedCards = document.getElementsByClassName('flipped');
 
           if (flippedCards[0].dataset.suit === flippedCards[1].dataset.suit){
             flippedCards[0].classList.add('matched');
