@@ -9,24 +9,23 @@ var CardMatchGame = function(elem) {
 	this.shuffle = function(array) {
   	var currentIndex = array.length, temporaryValue, randomIndex ;
 
-  	// While there remain elements to shuffle...
+
   	while (0 !== currentIndex) {
 
-    // Pick a remaining element...
+
     randomIndex = Math.floor(Math.random() * currentIndex);
     currentIndex -= 1;
 
-    // And swap it with the current element.
+
     temporaryValue = array[currentIndex];
     array[currentIndex] = array[randomIndex];
     array[randomIndex] = temporaryValue;
   }
 
   return array;
-   // console.log(shuffle);
+
 };
 		this.checkMatch = function(flippedCards){
-          //var flippedCards = document.getElementsByClassName('flipped');
 
           if (flippedCards[0].dataset.suit === flippedCards[1].dataset.suit){
             flippedCards[0].classList.add('matched');
@@ -51,7 +50,7 @@ var CardMatchGame = function(elem) {
 			 cards.forEach(function(suit){
 			 	var div = document.createElement('div');
 			 	div.classList.add('card');
-        //div.classList.add('card flipped');
+
         div.innerHTML = '<div class="front"></div><div class="back"><div class="suit '+suit+'"></div></div>';
         div.dataset.suit = suit;
         table.appendChild(div);
@@ -59,7 +58,7 @@ var CardMatchGame = function(elem) {
           div.classList.toggle('flipped');
 
         });
-        //onMouseDown
+
 		 });
 
   };
@@ -69,8 +68,7 @@ var CardMatchGame = function(elem) {
 
   	this.shuffle(cards);
   	this.displayCards();
-    //console.log('Card matching game is online.');
-
+  
   };
 
 
