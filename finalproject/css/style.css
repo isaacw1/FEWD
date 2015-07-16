@@ -1,0 +1,173 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #121212;
+     font-size: 16px;
+     line-height: 1.4;
+     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+body {
+	width: 100%;
+  height:100%;
+	margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #99D9EA;
+
+}
+
+.header {
+  font-size: 3em;
+  padding-left: 2%;
+  padding-top: 4%;
+  padding-bottom: 2%;
+}
+
+nav {
+  padding-left: 2%;
+  width: 80%;
+  margin: auto;
+}
+
+.clearfix{
+  clear:both;
+}
+
+li.button {
+width: 20%;
+padding: 20px;
+margin: 20px;
+font-weight: bold;
+font-size: 150%;
+background: #3366CC;
+color: #FFFFFF;
+cursor: pointer;
+border: 1px solid #999999;
+border-radius: 10px;
+-webkit-box-shadow: 6px 6px 5px #999999;
+-moz-box-shadow: 6px 6px 5px #999999;
+box-shaddow: 6px 6px 5px; #999999;
+display: block;
+float: left;
+text-decoration: none;
+text-align: center;
+}
+
+
+li#home:hover {
+color: #FF3300;
+background: #3366CC;
+border: 1px solid #A3A3A3;
+-webkit-box-shadow: 10px 10px 5px #FF3300;
+-moz-box-shadow: 10px 10px 5px #FF3300;
+box-shaddow: 10px 10px 5px; #666666;
+}
+
+li#aboutUs:hover {
+color: #00FF00;
+background: #3366CC;
+border: 1px solid #A3A3A3;
+-webkit-box-shadow: 10px 10px 5px #00FF00;
+-moz-box-shadow: 10px 10px 5px #00FF00;
+box-shaddow: 10px 10px 5px; #666666;
+}
+
+li#pics:hover {
+color: #FF33CC;
+background: #3366CC;
+border: 1px solid #A3A3A3;
+-webkit-box-shadow: 10px 10px 5px #FF33CC;
+-moz-box-shadow: 10px 10px 5px #FF33CC;
+box-shaddow: 10px 10px 5px; #666666;
+}
+
+li#links:hover {
+color: #FFFF00;
+background: #3366CC;
+border: 1px solid #A3A3A3;
+-webkit-box-shadow: 10px 10px 5px #FFFF00;
+-moz-box-shadow: 10px 10px 5px #FFFF00;
+box-shaddow: 10px 10px 5px; #666666;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+p{
+
+}
+p.aboutUsTxt{
+  font-size: 2em;
+  width: 80%;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  padding-left: 2%;
+}
+.admins{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#isaacImg{
+    width: 16%;
+    height: 220px;
+    padding-bottom: 10px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px ;
+}
+
+#myDialog{
+  position: absolute;
+}
+
+/*.isaacTxt {
+  width: 60%;
+  height: 60%;
+  background-color: white;
+  position: absolute;
+
+}*/
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

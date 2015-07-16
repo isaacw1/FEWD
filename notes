@@ -224,3 +224,47 @@ MVC
 -transform color w/ canvas or opacity shifts
 -avoid border-radius w/ box-shadow
 -offload complex
+
+
+7/13/15
+
+  RESPONSIVE CSS
+
+  Fixed vs. Responsive (fluid)
+
+  Tools for success with Responsive websites
+  -use fluid fonts
+  -set breakpoints with media queries
+  -use a grid system
+  - use dev tools
+
+  Responsive layout
+  - different styles for diff screen widths
+  -uses an elastic/fluid layout
+  -boxes sized in % or vw/vh
+  -fonts sized with em
+
+  Viewport
+  -goes in <head>
+  -defines the width of the window for the mobile devices screen
+  -sets an initial scale (or zoom)
+  -allows dev to restrict pinch to zoom
+
+  Chrome Dev Tools
+  -allows you to emulate mobile devices
+
+  MEDIA QUERIES
+  -supports styling within a range of the window's width
+  -helps when resizing a desktop browser's window
+  -the breakpoint is defined by the values where the range ends
+  -the state is defined by the range
+  -can be used to check if device is in portrait or landscape mode
+  -try to not treat responsiveness as an afterthought
+  good practices
+  -create a few responsive states early on
+  -avoid "minor" breakpoints
+  -provide coverage for mobile devices, tablets, desktops
+  -can usually get away with only using three states
+
+  GRIDS
+  -good grids to use: zen grids, bourbon neat 
