@@ -4,7 +4,7 @@ Client: Your Client
 Author: Your Name
 Developer @GA in NYC
 */
-
+/*color palette link: http://coolors.co/99d9ea-7246f2-a00027-7765e3-b08ea2*/
 
 /******************************************
 /* SETUP
@@ -22,7 +22,7 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #121212;
+     color: #FEFEFE;
      font-size: 16px;
      line-height: 1.4;
      font-family: 'Open Sans', Helvetica, Arial, sans-serif;
@@ -39,10 +39,11 @@ body {
   height:100%;
 	margin: 0;
   padding: 0;
+
 }
 
 body{
-  background-color: #99D9EA;
+  background-color: #7246F2;
 
 }
 
@@ -69,7 +70,7 @@ padding: 20px;
 margin: 20px;
 font-weight: bold;
 font-size: 150%;
-background: #3366CC;
+background: #A755C2;
 color: #FFFFFF;
 cursor: pointer;
 border: 1px solid #999999;
@@ -159,8 +160,8 @@ h2 {
 }
 
 .adminImg:hover{
-  -webkit-box-shadow: 10px 10px 5px #FF3300;
-  -moz-box-shadow: 10px 10px 5px #FF3300;
+  -webkit-box-shadow: 10px 10px 5px #A00027;
+  -moz-box-shadow: 10px 10px 5px #A00027;
 }
 
 li.names{
@@ -197,10 +198,10 @@ li.names{
 	margin: 10% auto;
 	padding: 5px 20px 13px 20px;
 	border-radius: 10px;
-	background: #fff;
-	background: -moz-linear-gradient(#fff, #999);
-	background: -webkit-linear-gradient(#fff, #999);
-	background: -o-linear-gradient(#fff, #999);
+	background: #7765E3;
+	background: -moz-linear-gradient(#7765E3, #7246F2);
+	background: -webkit-linear-gradient(#7765E3, #7246F2);
+	background: -o-linear-gradient(#7765E3, #7246F2);
 }
 
 .close {
@@ -231,6 +232,9 @@ li.names{
   position: absolute;
 
 }*/
+
+
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
